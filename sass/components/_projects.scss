@@ -1,17 +1,12 @@
-.header {
-  text-align: center;
-  font-size: 2rem;
-  transition: all 0.2s;
-}
-.header h1:hover {
-  transform: skewX(13deg);
-}
 a {
   text-decoration: none;
 }
 
 a:visited {
-  color: black;
+  color: $color-black;
+}
+a:hover {
+  font-size: 2rem;
 }
 
 .project {
@@ -21,4 +16,5 @@ a:visited {
   margin: 20px;
   width: 200px;
   padding: 20px;
+  transition: all 0.2s;
 }

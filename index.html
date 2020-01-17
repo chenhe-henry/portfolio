@@ -4,59 +4,114 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="./css/style.css" rel="stylesheet" type="text/css" />
     <title>Chen He's Portfolio</title>
   </head>
   <body>
-    <section class="header">
-      <h1>Hi, My name is Chen He.</h1>
-      <h3>A full-stack developer.</h3>
-    </section>
+    <header class="header">
+      <div class="header__logo-box"></div>
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Chen He</span>
+          <span class="heading-primary--sub">A full-stack developer </span>
+        </h1>
+        <a href="#section-about" class="btn btn-white btn-animated"
+          ><strong>Discover more &darr;</strong></a
+        >
+      </div>
+    </header>
     <!-- Skills set -->
-    <section class="skills">
-      <h2>Here is the skill list</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Ruby on Rails</li>
-        <li>React</li>
-      </ul>
-    </section>
-    <!-- All the projects -->
-    <section class="projects">
-      <div class="project project__ga--0">
-        <h3>
-          <a
-            href="https://chenhe-henry.github.io/gaseifx01-project0/"
-            target="_blank"
-            >To do list</a
-          >
-        </h3>
-        <p>
-          This is the first project I created in GA. With HTML, CSS and jQuery,
-          the simple "To do list", allows you to add, edit, delete, highlight,
-          check and search todos.
-        </p>
-      </div>
-      <div class="project project__ga--1">
-        <h3>
-          <a href="https://healthtracking01.herokuapp.com/" target="_blank"
-            >Health tracking</a
-          >
-        </h3>
-        <p>This is project.</p>
-      </div>
-      <div class="project project__ga--2">
-        <h3>Givng</h3>
-        <p>This is project.</p>
-      </div>
-      <div class="project project__ga--0">
-        <h3>Project Name</h3>
-        <p>This is project.</p>
-      </div>
-    </section>
-    <!-- Contact -->
-    <section class="footer"></section>
+    <main>
+      <section class="section-about" id="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">About Me</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Nice
+            </h3>
+            <p class="paragraph">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
+              unde provident at velit sit magni dolorem illo doloremque? Modi
+              veritatis laborum eum doloremque eligendi natus iusto maiores
+              optio aliquam laboriosam.
+            </p>
+
+            <h3 class="heading-tertiary u-margin-bottom-small">
+              Good
+            </h3>
+            <p class="paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+              voluptatem, rem saepe consequatur, animi sint praesentium
+              nesciunt, ipsa incidunt similique error totam vero libero eos
+              porro. Consequuntur totam cum autem!
+            </p>
+
+            <a href="#" class="btn-text">Learn more &rarr;</a>
+          </div>
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                src="img/logo-html-css-js.png"
+                alt="Photo 1"
+                class="composition__photo composition__photo--p1"
+              />
+              <img
+                src="img/logo-ruby-on-rails.jpg"
+                alt="Photo 2"
+                class="composition__photo composition__photo--p2"
+              />
+              <img
+                src="img/logo-react.png"
+                alt="Photo 3"
+                class="composition__photo composition__photo--p3"
+              />
+              <img
+                src="img/logo-heroku.png"
+                alt="Photo 4"
+                class="composition__photo composition__photo--p4"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- All the projects -->
+      <section class="projects">
+        <div class="project project__ga--0">
+          <h3>
+            <a
+              href="https://chenhe-henry.github.io/gaseifx01-project0/"
+              target="_blank"
+              >To do list</a
+            >
+          </h3>
+          <p>
+            This is the first project I created in GA. With HTML, CSS and
+            jQuery, the simple "To do list", allows you to add, edit, delete,
+            highlight, check and search todos.
+          </p>
+        </div>
+        <div class="project project__ga--1">
+          <h3>
+            <a href="https://healthtracking01.herokuapp.com/" target="_blank"
+              >Health tracking</a
+            >
+          </h3>
+          <p>This is project.</p>
+        </div>
+        <div class="project project__ga--2">
+          <h3>Givng</h3>
+          <p>This is project.</p>
+        </div>
+        <div class="project project__ga--0">
+          <h3>Project Name</h3>
+          <p>This is project.</p>
+        </div>
+      </section>
+      <!-- Contact -->
+      <section class="footer"></section>
+    </main>
   </body>
 </html>
