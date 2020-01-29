@@ -159,6 +159,11 @@ body {
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
 a {
   text-decoration: none; }
 
