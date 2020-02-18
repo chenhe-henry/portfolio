@@ -159,28 +159,27 @@ body {
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.95); }
 
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; }
-
 a {
   text-decoration: none; }
+  a:visited {
+    color: #000; }
 
-a:visited {
-  color: #000; }
-
-a:hover {
-  font-size: 2rem; }
-
-.project {
-  display: inline-block;
-  border: 1px solid #eee;
-  box-shadow: 0 2px 2px #ccc;
-  margin: 20px;
-  width: 200px;
-  padding: 20px;
-  transition: all 0.2s; }
+.section-projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: stretch;
+  justify-content: space-between;
+  grid-gap: 2rem; }
+  .section-projects__project {
+    border: 1px solid black;
+    box-shadow: 0 2px 2px #ccc;
+    margin: 20px;
+    padding: 20px;
+    transition: all 0.2s; }
+    .section-projects__project:hover {
+      transform: translateY(-2rem) scale(1.2); }
+    .section-projects__project-img {
+      width: 100%; }
 
 .footer {
   background-color: #333;
