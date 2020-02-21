@@ -9,7 +9,7 @@
   }
 
   &__logo {
-    width: 15rem;
+    width: 25rem;
     height: auto;
   }
 
@@ -54,7 +54,8 @@
     color: $color-grey-light-1;
     border-top: 1px solid $color-grey-dark;
     padding-top: 2rem;
-    width: 80%;
+    width: 70%;
     float: right;
+    text-align: center;
   }
 }
