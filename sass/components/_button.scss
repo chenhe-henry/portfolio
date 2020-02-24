@@ -46,7 +46,7 @@
   }
 
   &-animated {
-    animation: moveInBottom 0.5s ease-out 0.75s;
+    animation: moveInBottom 3s ease-out 0.75s;
     /* backwards means the initial state only happens when the animation starts */
     animation-fill-mode: backwards;
   }

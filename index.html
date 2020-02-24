@@ -8,17 +8,19 @@
     <title>Chen He's Portfolio</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="header__logo-box">
-        <img src="img/logo_transparent 2.png" alt="Logo" class="header__logo" />
+        <a href="#header">
+          <img src="img/logo_transparent 2.png" alt="Logo" class="header__logo"
+        /></a>
       </div>
       <div class="header__text-box">
         <h1 class="heading-primary">
           <span class="heading-primary--main">Chen He</span>
-          <span class="heading-primary--sub">A full-stack developer </span>
+          <span class="heading-primary--sub">A front-end developer </span>
         </h1>
         <a href="#section-about" class="btn btn-white btn-animated"
-          ><strong>Discover more &darr;</strong></a
+          ><strong>More about me &darr;</strong></a
         >
       </div>
     </header>
@@ -51,7 +53,7 @@
               porro. Consequuntur totam cum autem!
             </p>
 
-            <a href="#" class="btn-text">Learn more &rarr;</a>
+            <a href="#" class="btn-text">Download Resume &rarr;</a>
           </div>
           <div class="col-1-of-2">
             <div class="composition">
@@ -80,6 +82,9 @@
         </div>
       </section>
       <!-- All the projects -->
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">Projects</h2>
+      </div>
       <section class="section-projects">
         <div class="section-projects__project">
           <a
@@ -97,7 +102,7 @@
             <img src="./img/todolist.jpg" class="section-projects__project-img"
           /></a>
         </div>
-        <div class="section-projects__project">
+        <!-- <div class="section-projects__project">
           <a href="https://healthtracking01.herokuapp.com/" target="_blank">
             <h3>
               Health tracking
@@ -108,7 +113,7 @@
         <div class="section-projects__project">
           <h3>Givng</h3>
           <p>This is project.</p>
-        </div>
+        </div> -->
         <div class="section-projects__project">
           <a href="https://findhome101.herokuapp.com/" target="_blank">
             <h3>
@@ -137,31 +142,42 @@
       <!-- Contact -->
       <footer class="footer">
         <div class="footer__logo-box">
-          <img
-            src="img/logo_transparent 2.png"
-            alt="Full logo"
-            class="footer__logo"
-          />
+          <a href="#header">
+            <img
+              src="img/logo_transparent 2.png"
+              alt="Full logo"
+              class="footer__logo"
+          /></a>
         </div>
         <div class="row">
           <div class="col-1-of-2">
             <div class="footer__navigation">
               <ul class="footer__list">
                 <li class="footer__item">
-                  <a href="#" class="footer__link">Email</a>
+                  <a href="chenhe.elec@gmail.com" class="footer__link">Email</a>
                 </li>
                 <li class="footer__item">
-                  <a href="#" class="footer__link">Github</a>
+                  <a
+                    href="https://github.com/chenhe-henry"
+                    target="_blank"
+                    class="footer__link"
+                    >Github</a
+                  >
                 </li>
-                <li class="footer__item">
+                <!-- <li class="footer__item">
                   <a href="#" class="footer__link">Phone</a>
-                </li>
+                </li> -->
                 <li class="footer__item">
-                  <a href="#" class="footer__link">LinkedIn</a>
+                  <a
+                    href="https://www.linkedin.com/in/chenhe-henry/"
+                    target="_blank"
+                    class="footer__link"
+                    >LinkedIn</a
+                  >
                 </li>
-                <li class="footer__item">
+                <!-- <li class="footer__item">
                   <a href="#" class="footer__link">Terms</a>
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>

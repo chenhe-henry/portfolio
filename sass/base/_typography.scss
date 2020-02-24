@@ -10,21 +10,23 @@ body {
   text-transform: uppercase;
   margin-bottom: 6rem;
   backface-visibility: hidden;
-
+  transition: all 0.2s;
   &--main {
     display: block;
     font-size: 4rem;
-    animation: moveInLeft 3s ease-out 1s;
+    animation: comingInRight 3s ease-out 3s;
     letter-spacing: 3rem;
     color: $color-white;
+    animation-fill-mode: backwards;
   }
 
   &--sub {
     display: block;
     font-size: 1.5rem;
-    animation: moveInRight 3s ease-out 1s;
+    animation: comingInLeft 3s ease-out 0.75s;
     letter-spacing: 1rem;
     color: $color-grey-light;
+    animation-fill-mode: backwards;
   }
 }
 

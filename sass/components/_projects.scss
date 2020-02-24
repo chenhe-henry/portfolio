@@ -17,19 +17,21 @@ a {
 }
 
 .section-projects {
+  margin: 10rem 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: stretch;
   justify-content: space-between;
   grid-gap: 2rem;
   &__project {
-    border: 1px solid black;
     box-shadow: 0 2px 2px #ccc;
     margin: 20px;
     padding: 20px;
-    transition: all 0.2s;
+    transition: all 0.5s cubic-bezier(0.04, 0.46, 1, -0.03);
+    border-radius: 5px;
     &:hover {
-      transform: translateY(-2rem) scale(1.2);
+      transform: translateY(-0.5rem) scale(1.1);
+      animation: showborder ease-out 4s infinite;
     }
     &-img {
       width: 100%;

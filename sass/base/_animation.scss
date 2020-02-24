@@ -1,0 +1,134 @@
+@keyframes jumpAround {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes showborder {
+  0% {
+    border-top: 5px solid $color-blue;
+  }
+  33% {
+    border-top: 5px solid $color-blue;
+    border-right: 5px solid $color-blue;
+  }
+  66% {
+    border-top: 5px solid $color-blue;
+    border-right: 5px solid $color-blue;
+    border-bottom: 5px solid $color-blue;
+  }
+  100% {
+    border: 5px solid $color-blue;
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem) rotate(0deg);
+  }
+  60% {
+    transform: rotate(180deg);
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  60% {
+    transform: rotate(-180deg);
+  }
+  80% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes comingInRight {
+  0% {
+    opacity: 0;
+    transform: translateY(-15rem);
+  }
+  30% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10rem) translateX(2rem);
+  }
+  45% {
+    transform: translateY(0) translateX(4rem);
+  }
+  60% {
+    transform: translateY(-5rem) translateX(6rem);
+  }
+  80% {
+    transform: translateY(0) translateX(8rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX();
+  }
+}
+
+@keyframes comingInLeft {
+  0% {
+    opacity: 0;
+    transform: translateY(-15rem);
+  }
+  30% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10rem) translateX(-2rem);
+  }
+  45% {
+    transform: translateY(0) translateX(-4rem);
+  }
+  60% {
+    transform: translateY(-5rem) translateX(-6rem);
+  }
+  80% {
+    transform: translateY(0) translateX(-8rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX();
+  }
+}
+
+@keyframes enterFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(150rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

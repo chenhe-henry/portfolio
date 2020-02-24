@@ -17,8 +17,11 @@
     position: absolute;
     top: 4rem;
     left: 4rem;
+    transition: all 0.2s;
   }
   &__logo {
     height: 10rem;
+    animation: enterFromRight ease-out 3s 1;
+    animation-fill-mode: backwards;
   }
 }
