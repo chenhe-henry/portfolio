@@ -277,7 +277,7 @@ a {
     border-radius: 5px; }
     .section-projects__project:hover {
       transform: translateY(-0.5rem) scale(1.1);
-      animation: showborder ease-out 4s infinite; }
+      animation: showborder ease-out 1s infinite; }
     .section-projects__project-img {
       width: 100%; }
 
