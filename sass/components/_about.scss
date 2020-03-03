@@ -1,0 +1,18 @@
+.section-about__avatar-wrapper {
+  //   width: 20rem;
+  //   height: 15rem;
+
+  //   -webkit-shape-outside: circle(50% at 50% 50%);
+  //   shape-outside: circle(50% at 50% 50%);
+  //   -webkit-clip-path: circle(50% at 50% 50%);
+  //   clip-path: circle(50% at 50% 50%);
+  //   position: relative;
+  &-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10rem;
+    margin-top: -5rem;
+    width: 20%;
+  }
+}

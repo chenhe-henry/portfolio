@@ -3,7 +3,7 @@ body {
   /* font-size: 16px; */
   line-height: 1.7;
   color: #777;
-  padding: 3rem;
+  // padding: 3rem;
 }
 
 .heading-primary {
@@ -49,11 +49,11 @@ body {
 
 .heading-tertiary {
   text-transform: uppercase;
-  font-size: $default-font-size;
+  font-size: 2rem;
 }
 
 .paragraph {
-  font-size: $default-font-size;
+  font-size: 2rem;
   &:not(:last-child) {
     margin-bottom: 5rem;
   }

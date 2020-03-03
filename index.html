@@ -12,6 +12,25 @@
     <title>Chen He's Portfolio</title>
   </head>
   <body>
+    <nav class="nav">
+      <ul class="nav--links">
+        <!-- <a class="nav--links-name">Chen He</a> -->
+        <a class="nav--links-link" href="#header"
+          ><i class="fas fa-home"></i> Home</a
+        >
+        <a class="nav--links-link" href="#section-about"
+          ><i class="fas fa-user"></i> About</a
+        >
+        <a class="nav--links-link" href="#section-projects">
+          <i class="fas fa-laptop-code"></i> Projects </a
+        ><a class="nav--links-link" href="#footer">
+          <i class="fas fa-id-card"></i> Contact
+        </a>
+        <a href="img/ChenHe-Resume.pdf" class="nav--links-link" download>
+          <i class="fas fa-file-download"></i> Download Resume
+        </a>
+      </ul>
+    </nav>
     <header class="header" id="header">
       <div class="header__logo-box">
         <a href="#header">
@@ -24,8 +43,8 @@
           <span class="heading-primary--sub">A Front-end Developer </span>
         </h1>
         <a href="#section-about" class="btn btn-white btn-animated"
-          ><strong>More about me &darr;</strong></a
-        >
+          ><strong>More about me <i class="fas fa-arrow-down"></i></strong
+        ></a>
       </div>
     </header>
     <!-- Skills set -->
@@ -34,30 +53,33 @@
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">About Me</h2>
         </div>
-
+        <div class="section-about__avatar-wrapper">
+          <img src="img/ChenHe.jpg" class="section-about__avatar-wrapper-pic" />
+        </div>
         <div class="row">
           <div class="col-1-of-2">
             <h3 class="heading-tertiary u-margin-bottom-small">
               Nice
             </h3>
             <p class="paragraph">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum
-              unde provident at velit sit magni dolorem illo doloremque? Modi
-              veritatis laborum eum doloremque eligendi natus iusto maiores
-              optio aliquam laboriosam.
+              I'm a front-end developer with a background in electrical and
+              electronic engineering. With over two years' experience as a
+              technical executive, I have killer attention to detail, which
+              means I see issues arising more quickly than others. With the
+              proven ability as a critical thinker, I'm able to devise effective
+              and efficient workflows. To become more creative and to explore my
+              ability to turn people's wonderful ideas into reality, I decided
+              to move into software engineering, the industry with a lifetime of
+              exciting challenges.
             </p>
 
             <h3 class="heading-tertiary u-margin-bottom-small">
               Good
             </h3>
-            <p class="paragraph">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-              voluptatem, rem saepe consequatur, animi sint praesentium
-              nesciunt, ipsa incidunt similique error totam vero libero eos
-              porro. Consequuntur totam cum autem!
+            <p class="paragraph u-margin-bottom-medium">
+              HTML/CSS/JavaScript Sass jQuery Bootstrap Ruby on Rails React.js
+              GitHub Heroku Express Node SQL/Postgres MongoDB
             </p>
-
-            <a href="#" class="btn-text">Download Resume &rarr;</a>
           </div>
           <div class="col-1-of-2">
             <div class="composition">
@@ -81,70 +103,137 @@
                 alt="Photo 4"
                 class="composition__photo composition__photo--p4"
               />
+              <img
+                src="img/logo-sass.jpg"
+                alt="Photo 5"
+                class="composition__photo composition__photo--p5"
+              />
             </div>
           </div>
         </div>
       </section>
       <!-- All the projects -->
-      <div class="u-center-text u-margin-bottom-big">
-        <h2 class="heading-secondary">Projects</h2>
-      </div>
-      <section class="section-projects">
+
+      <section class="section-projects" id="section-projects">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Projects</h2>
+        </div>
         <div class="section-projects__project">
-          <a
-            href="https://chenhe-henry.github.io/gaseifx01-project0/"
-            target="_blank"
-          >
+          <div class="section-projects__project--link">
+            <a
+              href="https://chenhe-henry.github.io/gaseifx01-project0/"
+              target="_blank"
+            >
+              <img
+                src="./img/todolist.jpg"
+                class="section-projects__project-img"
+              />
+            </a>
+          </div>
+          <div class="section-projects__project--text">
             <h3>
               To do list
             </h3>
             <p>
               This is the first project I created in GA. With HTML, CSS and
               jQuery, the simple "To do list", allows you to add, edit, delete,
-              highlight, check and search todos.
+              highlight, check and search todos.a simple web application, which
+              allows you to add, edit, delete, highlight, check and search
+              “todos”. Created with HTML, CSS, Bootstrap and jQuery.
             </p>
-            <img src="./img/todolist.jpg" class="section-projects__project-img"
-          /></a>
+            <a
+              href="https://github.com/chenhe-henry/gaseifx01-project0"
+              target="_blank"
+              class="project__a"
+              >Github <i class="fas fa-link"></i
+            ></a>
+          </div>
         </div>
-        <!-- <div class="section-projects__project">
-          <a href="https://healthtracking01.herokuapp.com/" target="_blank">
+        <div class="section-projects__project">
+          <div class="section-projects__project--link">
+            <a href="https://healthtracking01.herokuapp.com/" target="_blank">
+              <img
+                src="./img/healthtracking.jpg"
+                class="section-projects__project-img"
+            /></a>
+          </div>
+          <div class="section-projects__project--text">
             <h3>
               Health tracking
             </h3>
-            <p>This is project.</p></a
-          >
+            <p>
+              This is project.a health tracking system which allows you to login
+              and helps you to record your health data. Created with HTML, CSS,
+              Ruby on Rails, Bootstrap, and PostgreSQL database. Deployed on
+              Heroku.
+            </p>
+            <a
+              href="https://github.com/chenhe-henry/gaseifx01-project1"
+              target="_blank"
+              class="project__a"
+              >Github <i class="fas fa-link"></i
+            ></a>
+          </div>
         </div>
+
         <div class="section-projects__project">
-          <h3>Givng</h3>
-          <p>This is project.</p>
-        </div> -->
-        <div class="section-projects__project">
-          <a href="https://findhome101.herokuapp.com/" target="_blank">
+          <div class="section-projects__project--link">
+            <a href="https://findhome101.herokuapp.com/" target="_blank">
+              <img
+                src="./img/findhome.jpg"
+                class="section-projects__project-img"
+            /></a>
+          </div>
+          <div class="section-projects__project--text">
             <h3>
               Find Home
             </h3>
             <p>
               The final project in GA. Created with React, Node, Express,
-              MongoDB and Mongoose.
+              MongoDB and Mongoose.a web app allows you to login with Google
+              account, search and get details of properties for rental. Created
+              with React.js, Express, Node.js, MongoDB, Mongoose, Google OAuth,
+              Domain API, and Google Map API. Deployed on Heroku.
             </p>
-            <img src="./img/findhome.jpg" class="section-projects__project-img"
-          /></a>
+            <a
+              href="https://github.com/chenhe-henry/gaseifx01-project3"
+              target="_blank"
+              class="project__a"
+              >Github <i class="fas fa-link"></i
+            ></a>
+          </div>
         </div>
         <div class="section-projects__project">
-          <a href="https://emaily1001.herokuapp.com/" target="_blank">
+          <div class="section-projects__project--link">
+            <a href="https://emaily1001.herokuapp.com/" target="_blank">
+              <img
+                src="./img/emaily.jpg"
+                class="section-projects__project-img"
+              />
+            </a>
+          </div>
+          <div class="section-projects__project--text">
             <h3>
               Emaily
             </h3>
             <p>
               A full-stack project. Created with React, Node, Express, MongoDB
-              and Mongoose.
+              and Mongoose.the app allows you to login with Google account, add
+              credit and send survey to multiple recipients. Created with React,
+              Redux, Express, Node.js, MongoDB, Mongoose, applied Google OAuth,
+              Stripe Billing and SendGrid. Deployed on Heroku.
             </p>
-            <img src="./img/emaily.jpg" class="section-projects__project-img" />
-          </a>
+            <a
+              href="https://github.com/chenhe-henry/emaily"
+              target="_blank"
+              class="project__a"
+              >Github <i class="fas fa-link"></i
+            ></a>
+          </div>
         </div>
       </section>
       <!-- Contact -->
-      <footer class="footer">
+      <footer class="footer" id="footer">
         <div class="footer__logo-box">
           <a href="#header">
             <img

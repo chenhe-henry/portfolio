@@ -24,6 +24,10 @@
       right: 20%;
       top: 10rem;
     }
+    &--p5 {
+      right: 50%;
+      top: 10rem;
+    }
     &:hover {
       z-index: 20;
       transform: translateY(-1rem) scale(1.1);
