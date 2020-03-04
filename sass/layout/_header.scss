@@ -24,7 +24,18 @@
     animation-fill-mode: backwards;
   }
 }
-
+.back {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  text-decoration: none;
+  font-size: 5rem;
+  color: $color-blue;
+  z-index: 1000;
+  &:active {
+    opacity: 0;
+  }
+}
 .nav {
   position: fixed;
   top: 0;
@@ -32,7 +43,6 @@
   background-color: $color-grey;
   z-index: 2000;
   &--links {
-    margin: 2rem;
     list-style: none;
     color: white;
     display: flex;
@@ -44,6 +54,7 @@
     &-link,
     &:link {
       flex-grow: 1;
+      padding: 2rem;
       color: $color-white;
       text-decoration: none;
       text-transform: uppercase;
@@ -59,7 +70,7 @@
       &:active {
         background-position: 100%;
         color: $color-blue;
-        transform: translateX(1rem);
+        // transform: translateX(1rem);
       }
     }
   }
