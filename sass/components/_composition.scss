@@ -9,7 +9,7 @@
     outline-offset: 2rem;
 
     &--p1 {
-      left: 0;
+      left: 10%;
       top: -2rem;
     }
     &--p2 {
@@ -17,7 +17,7 @@
       top: -2rem;
     }
     &--p3 {
-      left: 0;
+      left: 10%;
       top: 10rem;
     }
     &--p4 {
@@ -27,6 +27,26 @@
     &--p5 {
       right: 10%;
       top: 22rem;
+    }
+    &--p6 {
+      left: 10%;
+      top: 22rem;
+    }
+    &--p7 {
+      right: 10%;
+      top: 34rem;
+    }
+    &--p8 {
+      left: 10%;
+      top: 34rem;
+    }
+    &--p9 {
+      left: 10%;
+      top: 46rem;
+    }
+    &--p10 {
+      right: 10%;
+      top: 46rem;
     }
     &:hover {
       z-index: 20;

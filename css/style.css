@@ -245,13 +245,13 @@ body {
     transition: all 0.2s;
     outline-offset: 2rem; }
     .composition__photo--p1 {
-      left: 0;
+      left: 10%;
       top: -2rem; }
     .composition__photo--p2 {
       right: 10%;
       top: -2rem; }
     .composition__photo--p3 {
-      left: 0;
+      left: 10%;
       top: 10rem; }
     .composition__photo--p4 {
       right: 10%;
@@ -259,6 +259,21 @@ body {
     .composition__photo--p5 {
       right: 10%;
       top: 22rem; }
+    .composition__photo--p6 {
+      left: 10%;
+      top: 22rem; }
+    .composition__photo--p7 {
+      right: 10%;
+      top: 34rem; }
+    .composition__photo--p8 {
+      left: 10%;
+      top: 34rem; }
+    .composition__photo--p9 {
+      left: 10%;
+      top: 46rem; }
+    .composition__photo--p10 {
+      right: 10%;
+      top: 46rem; }
     .composition__photo:hover {
       z-index: 20;
       transform: translateY(-1rem) scale(1.1);
@@ -392,8 +407,10 @@ body {
   right: 2rem;
   text-decoration: none;
   font-size: 5rem;
-  color: #00c3ff;
+  color: #777;
   z-index: 1000; }
+  .back:hover {
+    color: #00c3ff; }
   .back:active {
     opacity: 0; }
 
