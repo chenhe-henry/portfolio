@@ -151,7 +151,10 @@ body {
 .paragraph {
   font-size: 2rem; }
   .paragraph:not(:last-child) {
-    margin-bottom: 5rem; }
+    margin-bottom: 3rem; }
+  .paragraph-secondary {
+    font-size: 2rem;
+    margin-bottom: 0.5rem; }
 
 .u-center-text {
   text-align: center; }
@@ -238,12 +241,13 @@ body {
 .composition {
   position: relative; }
   .composition__photo {
-    width: 25%;
+    height: 10rem;
+    width: 15rem;
     z-index: 10;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
     position: absolute;
     transition: all 0.2s;
-    outline-offset: 2rem; }
+    outline-offset: 1rem; }
     .composition__photo--p1 {
       left: 10%;
       top: -2rem; }
@@ -252,28 +256,28 @@ body {
       top: -2rem; }
     .composition__photo--p3 {
       left: 10%;
-      top: 10rem; }
+      top: 13rem; }
     .composition__photo--p4 {
       right: 10%;
-      top: 10rem; }
+      top: 13rem; }
     .composition__photo--p5 {
       right: 10%;
-      top: 22rem; }
+      top: 28rem; }
     .composition__photo--p6 {
       left: 10%;
-      top: 22rem; }
+      top: 28rem; }
     .composition__photo--p7 {
       right: 10%;
-      top: 34rem; }
+      top: 43rem; }
     .composition__photo--p8 {
       left: 10%;
-      top: 34rem; }
+      top: 43rem; }
     .composition__photo--p9 {
       left: 10%;
-      top: 46rem; }
+      top: 58rem; }
     .composition__photo--p10 {
       right: 10%;
-      top: 46rem; }
+      top: 58rem; }
     .composition__photo:hover {
       z-index: 20;
       transform: translateY(-1rem) scale(1.1);

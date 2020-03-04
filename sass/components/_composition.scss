@@ -1,12 +1,13 @@
 .composition {
   position: relative;
   &__photo {
-    width: 25%;
+    height: 10rem;
+    width: 15rem;
     z-index: 10;
     box-shadow: 0 1.5rem 4rem rgba($color-black, 0.4);
     position: absolute;
     transition: all 0.2s;
-    outline-offset: 2rem;
+    outline-offset: 1rem;
 
     &--p1 {
       left: 10%;
@@ -18,35 +19,35 @@
     }
     &--p3 {
       left: 10%;
-      top: 10rem;
+      top: 13rem;
     }
     &--p4 {
       right: 10%;
-      top: 10rem;
+      top: 13rem;
     }
     &--p5 {
       right: 10%;
-      top: 22rem;
+      top: 28rem;
     }
     &--p6 {
       left: 10%;
-      top: 22rem;
+      top: 28rem;
     }
     &--p7 {
       right: 10%;
-      top: 34rem;
+      top: 43rem;
     }
     &--p8 {
       left: 10%;
-      top: 34rem;
+      top: 43rem;
     }
     &--p9 {
       left: 10%;
-      top: 46rem;
+      top: 58rem;
     }
     &--p10 {
       right: 10%;
-      top: 46rem;
+      top: 58rem;
     }
     &:hover {
       z-index: 20;
