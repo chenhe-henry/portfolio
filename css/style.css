@@ -385,7 +385,7 @@ body {
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://loveisfrontend.com/wp-content/uploads/2020/02/code-coding-computer-data-574073-720x480.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/code-background.jpg");
   background-size: cover;
   background-position: top;
   position: relative; }
