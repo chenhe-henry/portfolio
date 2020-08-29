@@ -45,7 +45,11 @@ body {
     font-size: 3.5rem;
     font-weight: 700;
     display: inline-block;
-    background-image: linear-gradient(to right, $color-grey-light, $color-blue);
+    background-image: linear-gradient(
+      to right,
+      $color-grey-light,
+      $color-white
+    );
     -webkit-background-clip: text;
     color: transparent;
     letter-spacing: 0.2rem;

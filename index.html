@@ -118,7 +118,7 @@
             </a>
           </div>
           <div class="section-projects__project--text">
-            <h3>To do list</h3>
+            <h3 class="section-projects__project--title">To do list</h3>
             <p class="project-introduction">
               This is the first project I created in GA. Built with HTML, CSS
               and jQuery, this simple "To do list" allows you to add, edit,
@@ -148,7 +148,7 @@
             /></a>
           </div>
           <div class="section-projects__project--text">
-            <h3>Health tracking</h3>
+            <h3 class="section-projects__project--title">Health tracking</h3>
             <p class="project-introduction">
               This is the first full-stack project I have done. A health
               tracking system which allows you to login and helps you to record
@@ -181,7 +181,7 @@
             /></a>
           </div>
           <div class="section-projects__project--text">
-            <h3>Find Home</h3>
+            <h3 class="section-projects__project--title">Find Home</h3>
             <p class="project-introduction">
               The final project in GA. Created with React, Node, Express,
               MongoDB and Mongoose. A web app allows you to login with Google
@@ -215,13 +215,15 @@
             </a>
           </div>
           <div class="section-projects__project--text">
-            <h3>Portfolio</h3>
+            <h3 class="section-projects__project--title">Portfolio</h3>
             <p class="project-introduction">
               A full-stack project. Created with React, Node, Express, MongoDB
               and Mongoose. The app allows you to login with Google account, add
               credit and send survey to multiple recipients.
             </p>
-            <p class="tech-stack">HTML, CSS, Responsive Design, Github.</p>
+            <p class="tech-stack">
+              HTML, CSS, JavaScript, Responsive Design, Github.
+            </p>
             <a
               href="https://chenhe-henry.github.io/portfolio/"
               target="_blank"
@@ -295,5 +297,15 @@
         </div>
       </footer>
     </main>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(
+        document.querySelectorAll(".section-projects__project-img"),
+        {
+          max: 25,
+          speed: 400,
+        }
+      );
+    </script>
   </body>
 </html>

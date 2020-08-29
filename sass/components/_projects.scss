@@ -1,9 +1,10 @@
 .project__a {
   border: 2px solid grey;
-  border-radius: 4px;
-  padding: 5px;
+  border-radius: 5px;
+  padding: 10px;
   text-decoration: none;
   color: $color-black;
+  transition: all 0.2s;
   &:hover {
     border: 2px solid black;
   }
@@ -13,37 +14,49 @@
 }
 
 .section-projects {
-  margin: 0 10rem;
+  margin: 0 10vw;
   text-align: center;
   &__project {
     font-size: 2rem;
-    box-shadow: 0 2px 2px #ccc;
-    margin: 20px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+      0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    margin: 8vh;
     padding: 20px;
-    // border: 2px solid grey;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-
-    // transition: all 0.5s cubic-bezier(0.04, 0.46, 1, -0.03);
     border-radius: 5px;
+    &--title {
+      background-image: linear-gradient(to right, $color-yellow, $color-blue);
+      -webkit-background-clip: text;
+      color: transparent;
+      font-size: 3rem;
+      font-weight: 700;
+    }
     &--text {
-      background-color: rgba(128, 128, 128, 0.091);
       padding: 20px;
     }
     &-img {
-      width: 50%;
-      height: 25vh;
+      box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56),
+        0 4px 25px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+      width: 65%;
+      height: 28vh;
+      border-radius: 5px;
+      transform: all 0.2s;
+      margin-top: -12vh;
     }
   }
 }
-
 .tech-stack {
   color: black;
-  // font-weight: 700;
   text-align: justify;
+  margin-bottom: 20px;
 }
 .project-introduction {
   text-align: justify;
+  // white-space: nowrap;
+  // width: 150px;
+  // overflow: hidden;
+  // text-overflow: ellipsis;
 }
