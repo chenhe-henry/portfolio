@@ -96,11 +96,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
-  font-size: 80%; }
+  box-sizing: border-box; }
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  font-size: 80%; }
 
 body {
   box-sizing: border-box; }
@@ -141,6 +141,19 @@ body {
   color: transparent;
   letter-spacing: 0.2rem;
   transition: all 0.2s; }
+  .heading-secondary-footer {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 700;
+    display: inline-block;
+    background-image: linear-gradient(to right, #b3b3b3, #00c3ff);
+    -webkit-background-clip: text;
+    color: transparent;
+    letter-spacing: 0.2rem;
+    transition: all 0.2s; }
+    .heading-secondary-footer:hover {
+      transform: skewY(5deg) skewX(15deg) scale(1.1);
+      text-shadow: 1rem 2rem 2rem rgba(0, 0, 0, 0.2); }
   .heading-secondary:hover {
     transform: skewY(5deg) skewX(15deg) scale(1.1);
     text-shadow: 1rem 2rem 2rem rgba(0, 0, 0, 0.2); }

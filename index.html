@@ -8,13 +8,21 @@
       src="https://kit.fontawesome.com/cd8ed4d2ef.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+    ></script>
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
     <link href="./css/style.css" rel="stylesheet" type="text/css" />
     <title>Chen He's Portfolio</title>
   </head>
   <body>
+    <!-- Nav -->
     <nav class="nav">
       <ul class="nav--links">
-        <!-- <a class="nav--links-name">Chen He</a> -->
         <a class="nav--links-link" href="#header"
           ><i class="fas fa-home"></i> Home</a
         >
@@ -32,6 +40,7 @@
       </ul>
     </nav>
     <a class="back" href="#header"><i class="fas fa-arrow-circle-up"></i></a>
+    <!-- Header -->
     <header class="header" id="header">
       <div class="header__logo-box">
         <a href="#header">
@@ -48,20 +57,23 @@
         ></a>
       </div>
     </header>
-    <!-- Skills set -->
+
     <main>
+      <!-- Skills set -->
       <section class="section-about" id="section-about">
         <div class="u-center-text u-margin-bottom-big">
           <h2 class="heading-secondary">About Me</h2>
         </div>
         <div class="section-about__avatar-wrapper">
-          <img src="img/ChenHe.jpg" class="section-about__avatar-wrapper-pic" />
+          <img
+            src="img/ChenHe.jpg"
+            class="section-about__avatar-wrapper-pic"
+            alt="Chen He"
+          />
         </div>
         <div class="row">
           <div class="col-1-of-2">
-            <h3 class="heading-tertiary u-margin-bottom-small">
-              About me
-            </h3>
+            <h3 class="heading-tertiary u-margin-bottom-small">About me</h3>
             <p class="paragraph">
               I'm a front-end developer with a background in electrical and
               electronic engineering. With over two years' experience as a
@@ -73,78 +85,17 @@
               to move into software engineering, the industry with a lifetime of
               exciting challenges.
             </p>
-
-            <h3 class="heading-tertiary u-margin-bottom-small">
-              Tech Skills
-            </h3>
-            <div class="paragraph-secondary">
-              HTML/CSS/JavaScript
-            </div>
-            <div class="paragraph-secondary">
-              jQuery | Sass | Bootstrap
-            </div>
-            <div class="paragraph-secondary">
-              Ruby on Rails | SQL/Postgres
-            </div>
+          </div>
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-small">Tech Skills</h3>
+            <div class="paragraph-secondary">HTML/CSS/JavaScript</div>
+            <div class="paragraph-secondary">jQuery | Sass | Bootstrap</div>
+            <div class="paragraph-secondary">Ruby on Rails | SQL/Postgres</div>
             <div class="paragraph-secondary">
               React.js | Express | Node | MongoDB
             </div>
             <div class="paragraph-secondary">GitHub | Heroku</div>
             <div class="paragraph-secondary">Amazon Web Services</div>
-          </div>
-          <div class="col-1-of-2">
-            <div class="composition">
-              <img
-                src="img/logo-html-css-js.png"
-                alt="Photo 1"
-                class="composition__photo composition__photo--p1"
-              />
-              <img
-                src="img/logo-ruby-on-rails.jpg"
-                alt="Photo 9"
-                class="composition__photo composition__photo--p9"
-              />
-              <img
-                src="img/logo-react.png"
-                alt="Photo 4"
-                class="composition__photo composition__photo--p4"
-              />
-              <img
-                src="img/logo-heroku.png"
-                alt="Photo 10"
-                class="composition__photo composition__photo--p10"
-              />
-              <img
-                src="img/logo-sass.jpg"
-                alt="Photo 6"
-                class="composition__photo composition__photo--p6"
-              />
-              <img
-                src="img/logo-express-node-mongoDB.jpg"
-                alt="Photo 5"
-                class="composition__photo composition__photo--p5"
-              />
-              <img
-                src="img/logo-github.jpg"
-                alt="Photo 7"
-                class="composition__photo composition__photo--p7"
-              />
-              <img
-                src="img/logo-postgresql.png"
-                alt="Photo 2"
-                class="composition__photo composition__photo--p2"
-              />
-              <img
-                src="img/logo-jQuery.jpg"
-                alt="Photo 3"
-                class="composition__photo composition__photo--p3"
-              />
-              <img
-                src="img/logo-bootstrap.jpeg"
-                alt="Photo 8"
-                class="composition__photo composition__photo--p8"
-              />
-            </div>
           </div>
         </div>
       </section>
@@ -167,9 +118,7 @@
             </a>
           </div>
           <div class="section-projects__project--text">
-            <h3>
-              To do list
-            </h3>
+            <h3>To do list</h3>
             <p class="project-introduction">
               This is the first project I created in GA. Built with HTML, CSS
               and jQuery, this simple "To do list" allows you to add, edit,
@@ -199,9 +148,7 @@
             /></a>
           </div>
           <div class="section-projects__project--text">
-            <h3>
-              Health tracking
-            </h3>
+            <h3>Health tracking</h3>
             <p class="project-introduction">
               This is the first full-stack project I have done. A health
               tracking system which allows you to login and helps you to record
@@ -234,9 +181,7 @@
             /></a>
           </div>
           <div class="section-projects__project--text">
-            <h3>
-              Find Home
-            </h3>
+            <h3>Find Home</h3>
             <p class="project-introduction">
               The final project in GA. Created with React, Node, Express,
               MongoDB and Mongoose. A web app allows you to login with Google
@@ -270,26 +215,21 @@
             </a>
           </div>
           <div class="section-projects__project--text">
-            <h3>
-              Emaily
-            </h3>
+            <h3>Portfolio</h3>
             <p class="project-introduction">
               A full-stack project. Created with React, Node, Express, MongoDB
               and Mongoose. The app allows you to login with Google account, add
               credit and send survey to multiple recipients.
             </p>
-            <p class="tech-stack">
-              React, Redux, Express, Node.js, MongoDB, Mongoose, applied Google
-              OAuth, Stripe Billing and SendGrid.
-            </p>
+            <p class="tech-stack">HTML, CSS, Responsive Design, Github.</p>
             <a
-              href="https://emaily1001.herokuapp.com/"
+              href="https://chenhe-henry.github.io/portfolio/"
               target="_blank"
               class="project__a"
               >Demo <i class="fas fa-link"></i
             ></a>
             <a
-              href="https://github.com/chenhe-henry/emaily"
+              href="https://github.com/chenhe-henry/portfolio"
               target="_blank"
               class="project__a"
               >Github <i class="fas fa-link"></i
@@ -300,6 +240,9 @@
       <!-- Contact -->
       <footer class="footer" id="footer">
         <div class="footer__logo-box">
+          <div class="u-center-text u-margin-bottom-big">
+            <h2 class="heading-secondary-footer">Get in touch</h2>
+          </div>
           <a href="#header">
             <img
               src="img/logo_transparent 2.png"
@@ -324,9 +267,6 @@
                     ><i class="fab fa-github"></i> Github</a
                   >
                 </li>
-                <!-- <li class="footer__item">
-                  <a href="#" class="footer__link">Phone</a>
-                </li> -->
                 <li class="footer__item">
                   <a
                     href="https://www.linkedin.com/in/chenhe-henry/"
@@ -335,9 +275,15 @@
                     ><i class="fab fa-linkedin"></i> LinkedIn</a
                   >
                 </li>
-                <!-- <li class="footer__item">
-                  <a href="#" class="footer__link">Terms</a>
-                </li> -->
+                <li class="footer__item">
+                  <a
+                    class="footer__link"
+                    href=""
+                    onclick="Calendly.initPopupWidget({url: 'https://calendly.com/chenhe'});return false;"
+                    ><i class="fas fa-calendar-alt"></i> Schedule time with
+                    me</a
+                  >
+                </li>
               </ul>
             </div>
           </div>

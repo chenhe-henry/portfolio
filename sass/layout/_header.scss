@@ -48,6 +48,8 @@
   top: 0;
   width: 100%;
   background-color: $color-grey;
+  @media (min-width: 768px) {
+  }
   z-index: 2000;
   &--links {
     list-style: none;
@@ -77,7 +79,6 @@
       &:active {
         background-position: 100%;
         color: $color-blue;
-        // transform: translateX(1rem);
       }
     }
   }
