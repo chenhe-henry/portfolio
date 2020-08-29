@@ -96,10 +96,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: inherit; }
+  box-sizing: inherit;
+  font-size: 80%; }
 
 html {
-  font-size: 80%; }
+  scroll-behavior: smooth; }
 
 body {
   box-sizing: border-box; }
@@ -290,7 +291,8 @@ body {
   border: 2px solid grey;
   border-radius: 4px;
   padding: 5px;
-  text-decoration: none; }
+  text-decoration: none;
+  color: #000; }
   .project__a:hover {
     border: 2px solid black; }
   .project__a:visited {
